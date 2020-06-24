@@ -22,10 +22,14 @@ yarn init -y
 <!-- package.json -->
 
 {
-    "devDependencies": {
-        "docsify-cli": "^4.4.1"
-    }
+  "name": "before",
+  "version": "1.0.0",
+  "description": "webpack-sample",
+  "scripts": {
+    "build": "webpack"
+  }
 }
+
 ```
 
 ## webpack のインストール
