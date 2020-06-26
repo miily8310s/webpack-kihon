@@ -1,3 +1,5 @@
-# Headline
+# Webpack の基本
 
-> An awesome project.
+> webpack の基本的な使い方をサンプルコードを交えて紹介します。
+
+##

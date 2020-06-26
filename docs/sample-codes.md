@@ -1,6 +1,12 @@
 # サンプルコードの準備
 
-今回は`webpack-kihon`という名前でディレクトリを作成します。ただしディレクトリ名が別になっていても問題ありません。
+今回自分が作成したものは`blog_sample/Webpack_sample/after`直下に`webpack-kihon`という名前でディレクトリを作成しました。ディレクトリ名はなんでもいいです。
+
+## サンプルコード
+
+https://github.com/miily8310s/blog_sample/tree/master/Webpack_sample
+
+`before`フォルダがバンドル前の、`after`フォルダにバンドル後の状態を格納しています。
 
 ## サンプルコードのディレクトリ
 
