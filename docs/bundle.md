@@ -31,7 +31,7 @@ npm run build
 バンドル作業が実行されて、正常に動作すればコマンドに以下のような表示がされているはずです。
 
 ```bash
-> after@1.0.0 build /home/eriyoshi/blog_sample/Webpack_sample/after
+> after@1.0.0 build /home/××/blog_sample/Webpack_sample/after
 > webpack
 
 Hash: 96f1c1c3120c5dbf936c
