@@ -31,6 +31,25 @@ webpack 実行前の構成は次の形にしました.
 *yarnコマンドの場合はyarn.lock
 ```
 
+## 動作確認用の html ファイル
+
+今回のサンプルでは次のように作成しました。
+`script`タブにバンドルで出力されるファイル`js/bundle.js`を指定します。
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webpack-sample</title>
+  </head>
+  <body>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
+```
+
 ## バンドルされるモジュールを作成する
 
 webpack でバンドルされるモジュール（JavaScript ファイル）を作成します。
