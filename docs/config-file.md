@@ -12,7 +12,7 @@ module.exports = {
   entry: "./src/js/app.js",
   output: {
     filename: "bundle.js",
-    path: path.resove(__dirname, "public/js"),
+    path: path.resolve(__dirname, "public/js"),
   },
 };
 ```
@@ -34,4 +34,5 @@ module.exports = {
 
 ### output
 
-`output`は出力するファイル名・出力先を指定します。
+`output`は出力するファイル名（`filename`）・出力先（`path`）を指定します。
+なお`path.resolve(__dirname, "{ディレクトリ名}")`は上記の設定ファイルが格納されているディレクトリの絶対パスを意味する`__dirname`と`{ディレクトリ名}`を結合したパスを取得します。

@@ -17,6 +17,7 @@ yarn init -y
 ```
 
 生成された`package.json`を次のように修正してください。
+`"scripts"`についてはこの段階では気にしなくいいです。
 
 ```json
 <!-- package.json -->
